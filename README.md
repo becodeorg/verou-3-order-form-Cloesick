@@ -9,10 +9,10 @@
 ## 🌱 Must-have features
 
 ### Preparation
-- Have a look at the provided structure: you get both an index file and another file containing a form. How are these two working together?
-- Think of a funny / surprising / original name for a store that should definitely exist. (fancy suits for cats? bongo for dates? you name it!)
-- Think of some products to sell (feel free to be creative) and update the products array with these.
-- Check if all the products & prices are currently visible in the form.
+- TODO Have a look at the provided structure: you get both an index file and another file containing a form. How are these two working together?
+- DONE Think of a funny / surprising / original name for a store that should definitely exist. (fancy suits for cats? bongo for dates? you name it!)
+- DONE Think of some products to sell (feel free to be creative) and update the products array with these.
+- TODO Check if all the products & prices are currently visible in the form.
 
 ### Step 1: accepting orders
 - Show an order confirmation when the user submits the form. This should contain the chosen products and delivery address.

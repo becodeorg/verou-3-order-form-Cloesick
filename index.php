@@ -9,6 +9,13 @@ declare(strict_types=1);
 // We are going to use session variables so we need to enable sessions
 session_start();
 
+//byNicolas Add function in order to make the outputted line more readable
+function pre_r( $array ){
+    echo '<pre>';
+    print_r($array);
+    echo'</pre>';
+}
+
 // Use this function when you need to need an overview of these variables
 function whatIsHappening() {
     echo '<h2>$_GET</h2>';
@@ -23,7 +30,10 @@ function whatIsHappening() {
 
 // TODO: provide some products (you may overwrite the example)
 $products = [
-    ['name' => 'Your favourite drink', 'price' => 2.5],
+    ['TheDownUnder' => 'Hangovers guaranteed', 'price' => 18],
+    ['TheSharingIsCaring' => 'For a cosy night for two' , 'price' => 16],
+    ['TheThereIsNoWayBack'=> 'For you and your best buds', 'price' => 25],
+    ['TheLuringFairy' => 'Sweet and seductive drink that desires for more', 'price' => 21]
 ];
 
 $totalValue = 0;
